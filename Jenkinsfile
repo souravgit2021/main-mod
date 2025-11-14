@@ -6,6 +6,7 @@ pipeline {
                 sh 'git submodule update --init --recursive'
                 sh 'bash sub-mod/script.sh'
                 sh 'echo "Testing WebHook Trigger"'
+                sh 'echo "Testing Poll SCM GitHub"'
             }
         }
     }
