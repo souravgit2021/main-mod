@@ -1,0 +1,3 @@
+[submodule "sub-mod"]
+	path = sub-mod
+	url = https://github.com/souravgit2021/sub-mod.git
